@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+        text-align: center;
+    }
+    .button-1 {
+      background-image: url("https://images.squarespace-cdn.com/content/v1/5ee2faf4f02b1743dee82dca/1598493993474-7HX21CLX9X702ZXE75ON/Cookie+Menu-01.png");
+      border: 0px solid #1A1A1A;
+      background-position: center;
+      background-color: #ffffff;
+      background-size: 100%;
+      border-radius: 125px;
+      color: #ffffff;
+      cursor: pointer;
+      font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      font-size: 50px;
+      font-weight: 1000;
+      height: 250px;
+      padding: 16px 24px;
+      text-shadow: 2px 2px 8px #000000;
+      
+      transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+      
+      
+      width: 250px;
+      
+
+    }
+
+    .button-1:disabled {
+      pointer-events: none;
+    }
+
+    .button-1:hover {
+      color: #ffffff;
+      background-color: #ffffff;
+    
+      transform: translateY(-4px);
+    }
+
+    .button-1:active {
+      box-shadow: none;
+      transform: translateY(0);
+    }
+    </style>
+</head>
+<body>
+    <main>
+     <button id="add" class="button-1" style="touch-action: manipulation; "></button>
+     <p id="value"></p>
+     <div id="container">
+        <div class="row">
+          <div class="name">adam</div><div id="score" class="score">1</div>
+        </div>
+      
+        <div class="row">
+          <div class="name">kuba</div><div id="anoscore" class="score">1</div>
+        </div>
+      
+        <div class="row">
+          <div class="name">jasu</div><div id="nescore" class="score">1</div>
+        </div>
+      
+        <div class="row">
+          <div class="name">mama</div><div id="nenescore" class="score">1</div>
+        </div>
+      
+        <div class="row">
+          <div class="name">tata</div><div id="anoanoscore" class="score">1</div>
+        </div>
+      </div>
+    </main>
+    <script src="versus4.js"  ></script>
+</body>
+</html>
