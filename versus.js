@@ -31,7 +31,7 @@ value++
 function chngething() {
 
     getData("https://awesomeapp-f2b19-default-rtdb.asia-southeast1.firebasedatabase.app/.json").then((data) => {
-        document.querySelector('#score').innerHTML = data.versus
+        document.querySelector('#score').innerHTML = value
         document.querySelector('#anoscore').innerHTML = data.versus2
         document.querySelector('#nescore').innerHTML = data.versus3
         document.querySelector('#nenescore').innerHTML = data.versus4
