@@ -31,7 +31,7 @@ function scores() {
 setInterval(() => {
   scores()
   sortleadboard()
-}, 10)
+}, 100)
 
 function sortleadboard() {
   let elements = []
