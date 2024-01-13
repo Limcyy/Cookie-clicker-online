@@ -1,4 +1,4 @@
-    Fun ONLINE MULTIPLAYER cookie clicker game using FIREBASE, HTML, CSS, JS
+Fun ONLINE MULTIPLAYER cookie clicker game using FIREBASE, HTML, CSS, JS
                            PLAY HERE:
   
   https://limcyy.github.io/Cookie-clicker-online/
