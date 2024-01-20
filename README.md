@@ -14,4 +14,4 @@ PHONE FRIENDLY.
 
 https://www.youtube.com/watch?v=mFLitmCJI3g
 
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=mFLitmCJI3g)
+[IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=mFLitmCJI3g)
