@@ -10,7 +10,7 @@ patchData("https://awesomeapp-f2b19-default-rtdb.asia-southeast1.firebasedatabas
 
 function add() {
   value++
-  document.querySelector('#firstscore').innerHTML = data.versus
+  document.querySelector('#firstscore').innerHTML = value
 }
 
 async function moreCookies() {
