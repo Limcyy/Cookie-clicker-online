@@ -10,10 +10,15 @@ patchData("https://awesomeapp-f2b19-default-rtdb.asia-southeast1.firebasedatabas
 
 function add() {
   value++
-  patchData("https://awesomeapp-f2b19-default-rtdb.asia-southeast1.firebasedatabase.app/.json", { versus4: value }).then((data) => {
-
-  });
+  document.querySelector('#forthscore').innerHTML = value
 }
+
+async function moreCookies() {
+  await patchData("https://awesomeapp-f2b19-default-rtdb.asia-southeast1.firebasedatabase.app/.json", { versus4: value })
+  moreCookies()
+}
+
+moreCookies()
 
 function scores() {
 
@@ -21,7 +26,6 @@ function scores() {
     document.querySelector('#firstscore').innerHTML = data.versus
     document.querySelector('#secondscore').innerHTML = data.versus2
     document.querySelector('#thirdscore').innerHTML = data.versus3
-    document.querySelector('#forthscore').innerHTML = data.versus4
     document.querySelector('#fifthscore').innerHTML = data.versus5
   });
 
@@ -31,7 +35,7 @@ function scores() {
 setInterval(() => {
   scores()
   sortleadboard()
-}, 100)
+}, 500)
 
 function sortleadboard() {
   let elements = []
