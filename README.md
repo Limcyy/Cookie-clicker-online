@@ -12,6 +12,4 @@ My first project using FIREBASE.
 
 PHONE FRIENDLY.
 
-https://www.youtube.com/watch?v=mFLitmCJI3g
-
-[IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=mFLitmCJI3g)
+[See For Yourself](https://www.youtube.com/watch?v=mFLitmCJI3g)
